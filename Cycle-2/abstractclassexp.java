@@ -18,7 +18,7 @@ class hexagon extends shape{
         }
 
 }
-class expt31{
+class abstractclassexp{
 public static void main(String[]args){
 	triangle t = new triangle();
 	t.numberofsides();
