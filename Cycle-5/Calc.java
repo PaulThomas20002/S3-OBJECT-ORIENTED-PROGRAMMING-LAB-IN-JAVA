@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.event.*;
- 
- 
 class Calc implements ActionListener
 {
 JFrame f;
