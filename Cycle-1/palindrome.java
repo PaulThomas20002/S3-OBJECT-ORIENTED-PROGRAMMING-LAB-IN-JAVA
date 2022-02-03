@@ -9,7 +9,7 @@ class palindrome{
         for(int i=length-1; i>=0; i--){
             rev = rev + Str.charAt(i);
         }
-        System.out.println("Reversed String is " + rev);
+        System.out.println("\nReversed String is " + rev);
         
         if(Str.equals(rev)){
             System.out.println("Palindrome");
