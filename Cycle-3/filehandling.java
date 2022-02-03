@@ -1,7 +1,7 @@
 /*Write a file handling program in Java with reader/writer.*/
 
 import java.io.*;
-public class 'filehandling_withReadernwrite'{
+public class filehandling{
   public static void main(String[]args) throws Exception{
     File inf = new File("in.dat");   //create a file in.dat and add any text there
     File outf = new File("out.dat");

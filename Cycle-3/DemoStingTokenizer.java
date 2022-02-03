@@ -2,7 +2,7 @@
 and then displays each integer, and the sum of all the integers (Use String Tokenizer class of java.util). ** */
 
 import java.util.*;
-class DemoStringTokenizer{
+class DemoStingTokenizer{
   public static void main(String[]args){
     int n;
     int sum=0;
