@@ -39,7 +39,7 @@ class employee{
         officer o = new officer();
         o.id = 369;
         o.name="Paul";
-        o.dob = "25.04.2002";
+        o.dob = "18.04.2002";
         o.phonnum = 200;
         o.salary = 43344;
         o.address = "India";
@@ -50,16 +50,16 @@ class employee{
         o.printall();
         
         manager b = new manager();
-        o.id = 555;
-        o.name="Thomas";
-        o.dob = "26.05.2002";
-        o.phonnum = 300;
-        o.salary = 55344;
-        o.address = "Australia";
-        o.specialization = "Block Chain";
-        o.department = "Computer Science";
-        o.printsalary();
+        b.id = 555;
+        b.name="Thomas";
+        b.dob = "26.05.2002";
+        b.phonnum = 300;
+        b.salary = 55344;
+        b.address = "Australia";
+        b.specialization = "Block Chain";
+        b.department = "Computer Science";
+        b.printsalary();
         
-        o.printall();
+        b.printall();
     }
 }
